@@ -38,7 +38,7 @@ def test_division_by_zero():
     assert calc.division(10, 0) == "Erreur : division par zéro"
     assert calc.last_result == "Error"
 
-def test_fail_addition():
-    calc = Calculator()
-    # Ce test est faux : 2 + 2 != 5
-    assert calc.addition(2, 2) == 5
+# def test_fail_addition():
+#     calc = Calculator()
+#     # Ce test est faux : 2 + 2 != 5
+#     assert calc.addition(2, 2) == 5
